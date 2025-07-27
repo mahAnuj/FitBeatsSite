@@ -16,7 +16,7 @@ const services = [
     description: "High-energy cardio workouts that improve coordination and burn calories effectively.",
     benefit: "Perfect for: Cardio fitness",
     gradient: "from-fitbeats-primary to-fitbeats-secondary",
-    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+    image: "/images/step-aerobics.png"
   },
   {
     icon: Dumbbell,
@@ -24,7 +24,7 @@ const services = [
     description: "Build lean muscle mass and increase metabolism with guided strength training.",
     benefit: "Perfect for: Strength building",
     gradient: "from-fitbeats-secondary to-fitbeats-accent",
-    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+    image: "/images/weight-training.png"
   },
   {
     icon: Target,
@@ -32,7 +32,7 @@ const services = [
     description: "Functional movements using resistance bands and bodyweight exercises.",
     benefit: "Perfect for: Functional fitness",
     gradient: "from-fitbeats-accent to-fitbeats-primary",
-    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+    image: "/images/resistence-training.png"
   },
   {
     icon: Flame,
@@ -40,7 +40,7 @@ const services = [
     description: "High-intensity interval training for maximum calorie burn in minimal time.",
     benefit: "Perfect for: Quick results",
     gradient: "from-fitbeats-primary to-fitbeats-secondary",
-    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+    image: "/images/tabata-training.png"
   },
   {
     icon: Leaf,
@@ -48,7 +48,7 @@ const services = [
     description: "Core strengthening and flexibility improvement through controlled movements.",
     benefit: "Perfect for: Core strength",
     gradient: "from-fitbeats-secondary to-fitbeats-accent",
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+    image: "/images/mat-pilates.png"
   },
   {
     icon: Heart,
@@ -56,7 +56,7 @@ const services = [
     description: "Mind-body connection through traditional yoga practices and breathing techniques.",
     benefit: "Perfect for: Flexibility & peace",
     gradient: "from-fitbeats-accent to-fitbeats-primary",
-    image: "https://images.unsplash.com/photo-1506629905607-eecadc79846e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+    image: "/images/yoga.png"
   },
   {
     icon: Music,
@@ -64,7 +64,7 @@ const services = [
     description: "Fun Bollywood dance fitness that makes working out feel like a celebration!",
     benefit: "Perfect for: Fun & cardio",
     gradient: "from-fitbeats-primary to-fitbeats-secondary",
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
+    image: "/images/bollyx-ftiness.png"
   },
   {
     icon: Apple,
