@@ -121,7 +121,7 @@ export default function ServicesSection() {
         <div className="bg-white rounded-2xl p-8 shadow-lg">
           <div className="text-center mb-8">
             <h3 className="font-bold text-3xl text-fitbeats-dark mb-4">Choose Your Training Mode</h3>
-            <p className="text-lg text-gray-600">Flexibility to train how and where you want</p>
+            <p className="text-lg text-gray-600 mb-6">FitBeats offers both online and offline training to accommodate your lifestyle and preferences. Whether you prefer the comfort of home or the energy of our studio, we've got you covered!</p>
           </div>
           
           <div className="grid md:grid-cols-2 gap-8">
@@ -130,31 +130,43 @@ export default function ServicesSection() {
                 <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/>
               </svg>
               <h4 className="font-semibold text-2xl mb-3">Online Training</h4>
-              <p className="mb-4">Train from the comfort of your home with live interactive sessions</p>
-              <ul className="text-left space-y-2">
+              <p className="mb-4 text-base">Join live interactive sessions from anywhere! Perfect for busy women who need flexibility without compromising on quality training and personal attention from Anshi.</p>
+              <ul className="text-left space-y-2 text-sm">
                 <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Live interactive classes
+                  Live interactive classes with real-time feedback
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Flexible scheduling
+                  Flexible scheduling to fit your routine
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Personal attention
+                  Personal attention and form corrections
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Recorded sessions access
+                  Recorded sessions for practice
+                </li>
+                <li className="flex items-center gap-2">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  All fitness programs available online
+                </li>
+                <li className="flex items-center gap-2">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Virtual community support
                 </li>
               </ul>
             </div>
@@ -164,33 +176,61 @@ export default function ServicesSection() {
                 <path d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h2v-2h2v-2h2v8zm0-10h-2V7h2v2z"/>
               </svg>
               <h4 className="font-semibold text-2xl mb-3">Studio Training</h4>
-              <p className="mb-4">Experience the energy of group fitness at our fully equipped studio</p>
-              <ul className="text-left space-y-2">
+              <p className="mb-4 text-base">Experience the high-energy atmosphere of our fully equipped studio in Indirapuram! Build connections with like-minded women while achieving your fitness goals together.</p>
+              <ul className="text-left space-y-2 text-sm">
                 <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  State-of-the-art equipment
+                  Modern, fully equipped fitness studio
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Group motivation
+                  High-energy group motivation
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  In-person guidance
+                  Hands-on guidance and support
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  Community building
+                  Build lifelong friendships
+                </li>
+                <li className="flex items-center gap-2">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Professional equipment & accessories
+                </li>
+                <li className="flex items-center gap-2">
+                  <svg className="w-4 h-4 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  Located in Indirapuram, Ghaziabad
                 </li>
               </ul>
+            </div>
+          </div>
+          
+          <div className="mt-8 text-center">
+            <div className="bg-fitbeats-light rounded-xl p-6">
+              <h4 className="font-semibold text-xl text-fitbeats-dark mb-3">Hybrid Options Available!</h4>
+              <p className="text-gray-600 mb-4">
+                Can't decide? Many of our members combine both online and studio training for maximum flexibility. 
+                Start with either mode and switch anytime based on your schedule and preferences.
+              </p>
+              <div className="flex flex-wrap justify-center gap-4 text-sm text-fitbeats-dark">
+                <span className="bg-white px-4 py-2 rounded-full font-medium">✓ Same quality training</span>
+                <span className="bg-white px-4 py-2 rounded-full font-medium">✓ Flexible switching</span>
+                <span className="bg-white px-4 py-2 rounded-full font-medium">✓ Community access</span>
+                <span className="bg-white px-4 py-2 rounded-full font-medium">✓ Personal attention</span>
+              </div>
             </div>
           </div>
         </div>
