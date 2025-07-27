@@ -193,41 +193,41 @@ export default function ContactSection() {
 
           {/* Contact Information */}
           <div>
-            <div className="bg-gradient-to-br from-fitbeats-primary to-fitbeats-secondary rounded-2xl p-8 text-white mb-8">
-              <h3 className="font-bold text-2xl mb-6">Get In Touch</h3>
+            <div className="bg-gradient-to-br from-fitbeats-primary to-fitbeats-secondary rounded-2xl p-8 mb-8">
+              <h3 className="font-bold text-2xl mb-6 text-fitbeats-dark">Get In Touch</h3>
               
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <MapPin className="w-6 h-6 mt-1 flex-shrink-0" />
+                  <MapPin className="w-6 h-6 mt-1 flex-shrink-0 text-fitbeats-dark" />
                   <div>
-                    <h4 className="font-semibold text-lg mb-1">Studio Location</h4>
-                    <p>698, opposite ATS Gate 5, below Cakeroom,<br/>Niti Khand I, Indirapuram,<br/>Ghaziabad, Uttar Pradesh 201014</p>
+                    <h4 className="font-semibold text-lg mb-1 text-fitbeats-dark">Studio Location</h4>
+                    <p className="text-fitbeats-dark">698, opposite ATS Gate 5, below Cakeroom,<br/>Niti Khand I, Indirapuram,<br/>Ghaziabad, Uttar Pradesh 201014</p>
                   </div>
                 </div>
                 
                 <div className="flex items-center gap-4">
-                  <Phone className="w-6 h-6 flex-shrink-0" />
+                  <Phone className="w-6 h-6 flex-shrink-0 text-fitbeats-dark" />
                   <div>
-                    <h4 className="font-semibold text-lg mb-1">Call Us</h4>
-                    <a href="tel:+919873181842" className="hover:underline">+91 98731 81842</a>
+                    <h4 className="font-semibold text-lg mb-1 text-fitbeats-dark">Call Us</h4>
+                    <a href="tel:+919873181842" className="hover:underline text-fitbeats-dark">+91 98731 81842</a>
                   </div>
                 </div>
                 
                 <div className="flex items-center gap-4">
-                  <svg className="w-6 h-6 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                  <svg className="w-6 h-6 flex-shrink-0 text-fitbeats-dark" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path fillRule="evenodd" d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.042-3.441.219-.937 1.404-5.955 1.404-5.955s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.357-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24c6.624 0 11.99-5.367 11.99-12C24.007 5.367 18.641.001 12.017.001z" clipRule="evenodd" />
                   </svg>
                   <div>
-                    <h4 className="font-semibold text-lg mb-1">Follow Us</h4>
-                    <a href="https://www.instagram.com/fitbeats.livingwell" target="_blank" rel="noopener noreferrer" className="hover:underline">@fitbeats.livingwell</a>
+                    <h4 className="font-semibold text-lg mb-1 text-fitbeats-dark">Follow Us</h4>
+                    <a href="https://www.instagram.com/fitbeats.livingwell" target="_blank" rel="noopener noreferrer" className="hover:underline text-fitbeats-dark">@fitbeats.livingwell</a>
                   </div>
                 </div>
                 
                 <div className="flex items-center gap-4">
-                  <Clock className="w-6 h-6 flex-shrink-0" />
+                  <Clock className="w-6 h-6 flex-shrink-0 text-fitbeats-dark" />
                   <div>
-                    <h4 className="font-semibold text-lg mb-1">Studio Hours</h4>
-                    <p>Mon-Sat: 7:00 AM - 9:00 PM<br/>Sunday: 8:00 AM - 6:00 PM</p>
+                    <h4 className="font-semibold text-lg mb-1 text-fitbeats-dark">Studio Hours</h4>
+                    <p className="text-fitbeats-dark">Mon-Sat: 7:00 AM - 9:00 PM<br/>Sunday: 8:00 AM - 6:00 PM</p>
                   </div>
                 </div>
               </div>
