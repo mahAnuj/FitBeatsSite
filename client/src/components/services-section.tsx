@@ -404,16 +404,19 @@ export default function ServicesSection() {
 
           <div className="mt-8 text-center">
             <div className="bg-fitbeats-light rounded-xl p-6">
-              <h4 className="font-semibold text-xl text-fitbeats-dark mb-3">Hybrid Options Available!</h4>
+              <h4 className="font-semibold text-xl mb-3">
+                <span className="text-fitbeats-dark">Hybrid Options </span>
+                <span className="text-fitbeats-primary">Available!</span>
+              </h4>
               <p className="text-gray-600 mb-4">
                 Can't decide? Many of our members combine both online and studio training for maximum flexibility. 
                 Start with either mode and switch anytime based on your schedule and preferences.
               </p>
-              <div className="flex flex-wrap justify-center gap-4 text-sm text-fitbeats-dark">
-                <span className="bg-white px-4 py-2 rounded-full font-medium">✓ Same quality training</span>
-                <span className="bg-white px-4 py-2 rounded-full font-medium">✓ Flexible switching</span>
-                <span className="bg-white px-4 py-2 rounded-full font-medium">✓ Community access</span>
-                <span className="bg-white px-4 py-2 rounded-full font-medium">✓ Personal attention</span>
+              <div className="flex flex-wrap justify-center gap-4 text-sm">
+                <span className="bg-gradient-to-r from-fitbeats-primary to-pink-400 text-white px-4 py-2 rounded-full font-medium shadow-md">✓ Same quality training</span>
+                <span className="bg-gradient-to-r from-fitbeats-secondary to-teal-400 text-white px-4 py-2 rounded-full font-medium shadow-md">✓ Flexible switching</span>
+                <span className="bg-gradient-to-r from-fitbeats-accent to-yellow-400 text-fitbeats-dark px-4 py-2 rounded-full font-medium shadow-md">✓ Community access</span>
+                <span className="bg-gradient-to-r from-purple-500 to-purple-400 text-white px-4 py-2 rounded-full font-medium shadow-md">✓ Personal attention</span>
               </div>
             </div>
           </div>
