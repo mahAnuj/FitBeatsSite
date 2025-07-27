@@ -14,7 +14,7 @@ export default function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&h=600" 
+              src="/images/anshi.jpeg" 
               alt="Anshi Raj Mahajan - Founder of FitBeats" 
               className="rounded-2xl shadow-2xl w-full object-cover aspect-square"
             />
