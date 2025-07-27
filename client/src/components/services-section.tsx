@@ -120,7 +120,10 @@ export default function ServicesSection() {
         {/* Online/Offline Options */}
         <div className="bg-white rounded-2xl p-8 shadow-lg">
           <div className="text-center mb-8">
-            <h3 className="font-bold text-3xl text-fitbeats-dark mb-4">Choose Your Training Mode</h3>
+            <h3 className="font-bold text-3xl mb-4">
+              <span className="text-fitbeats-dark">Choose Your </span>
+              <span className="text-fitbeats-primary">Training Mode</span>
+            </h3>
             <p className="text-lg text-gray-600 mb-6">FitBeats offers both online and offline training to accommodate your lifestyle and preferences. Whether you prefer the comfort of home or the energy of our studio, we've got you covered!</p>
           </div>
           
@@ -221,7 +224,10 @@ export default function ServicesSection() {
           {/* Pricing Cards */}
           <div className="mt-12">
             <div className="text-center mb-8">
-              <h4 className="font-bold text-2xl text-fitbeats-dark mb-3">Choose Your Membership Plan</h4>
+              <h4 className="font-bold text-2xl mb-3">
+                <span className="text-fitbeats-dark">Choose Your </span>
+                <span className="text-fitbeats-primary">Membership Plan</span>
+              </h4>
               <p className="text-gray-600">Flexible plans designed for every fitness goal and budget</p>
             </div>
             
