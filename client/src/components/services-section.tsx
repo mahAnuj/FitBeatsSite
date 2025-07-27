@@ -15,56 +15,64 @@ const services = [
     title: "Step/Floor Aerobics",
     description: "High-energy cardio workouts that improve coordination and burn calories effectively.",
     benefit: "Perfect for: Cardio fitness",
-    gradient: "from-fitbeats-primary to-fitbeats-secondary"
+    gradient: "from-fitbeats-primary to-fitbeats-secondary",
+    image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
   },
   {
     icon: Dumbbell,
     title: "Weight Training",
     description: "Build lean muscle mass and increase metabolism with guided strength training.",
     benefit: "Perfect for: Strength building",
-    gradient: "from-fitbeats-secondary to-fitbeats-accent"
+    gradient: "from-fitbeats-secondary to-fitbeats-accent",
+    image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
   },
   {
     icon: Target,
     title: "Resistance Training",
     description: "Functional movements using resistance bands and bodyweight exercises.",
     benefit: "Perfect for: Functional fitness",
-    gradient: "from-fitbeats-accent to-fitbeats-primary"
+    gradient: "from-fitbeats-accent to-fitbeats-primary",
+    image: "https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
   },
   {
     icon: Flame,
     title: "Tabata Training",
     description: "High-intensity interval training for maximum calorie burn in minimal time.",
     benefit: "Perfect for: Quick results",
-    gradient: "from-fitbeats-primary to-fitbeats-secondary"
+    gradient: "from-fitbeats-primary to-fitbeats-secondary",
+    image: "https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
   },
   {
     icon: Leaf,
     title: "Mat Pilates",
     description: "Core strengthening and flexibility improvement through controlled movements.",
     benefit: "Perfect for: Core strength",
-    gradient: "from-fitbeats-secondary to-fitbeats-accent"
+    gradient: "from-fitbeats-secondary to-fitbeats-accent",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
   },
   {
     icon: Heart,
     title: "Yoga",
     description: "Mind-body connection through traditional yoga practices and breathing techniques.",
     benefit: "Perfect for: Flexibility & peace",
-    gradient: "from-fitbeats-accent to-fitbeats-primary"
+    gradient: "from-fitbeats-accent to-fitbeats-primary",
+    image: "https://images.unsplash.com/photo-1506629905607-eecadc79846e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
   },
   {
     icon: Music,
     title: "BollyFit X",
     description: "Fun Bollywood dance fitness that makes working out feel like a celebration!",
     benefit: "Perfect for: Fun & cardio",
-    gradient: "from-fitbeats-primary to-fitbeats-secondary"
+    gradient: "from-fitbeats-primary to-fitbeats-secondary",
+    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
   },
   {
     icon: Apple,
     title: "Diet Consultation",
     description: "Personalized nutrition guidance to complement your fitness journey.",
     benefit: "Perfect for: Complete wellness",
-    gradient: "from-fitbeats-secondary to-fitbeats-accent"
+    gradient: "from-fitbeats-secondary to-fitbeats-accent",
+    image: "https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&h=300"
   }
 ];
 
@@ -86,13 +94,24 @@ export default function ServicesSection() {
           {services.map((service, index) => {
             const IconComponent = service.icon;
             return (
-              <div key={index} className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-all transform hover:scale-105 group">
-                <div className={`bg-gradient-to-br ${service.gradient} w-16 h-16 rounded-full flex items-center justify-center mb-4 group-hover:scale-110 transition-all`}>
-                  <IconComponent className="w-8 h-8 text-white" />
+              <div key={index} className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all transform hover:scale-105 group">
+                <div className="relative h-48 overflow-hidden">
+                  <img 
+                    src={service.image} 
+                    alt={service.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                  />
+                  <div className="absolute top-4 left-4">
+                    <div className={`bg-gradient-to-br ${service.gradient} w-12 h-12 rounded-full flex items-center justify-center shadow-lg`}>
+                      <IconComponent className="w-6 h-6 text-white" />
+                    </div>
+                  </div>
                 </div>
-                <h3 className="font-semibold text-xl text-fitbeats-dark mb-3">{service.title}</h3>
-                <p className="text-gray-600 mb-4">{service.description}</p>
-                <div className="text-fitbeats-primary font-semibold">{service.benefit}</div>
+                <div className="p-6">
+                  <h3 className="font-semibold text-xl text-fitbeats-dark mb-3">{service.title}</h3>
+                  <p className="text-gray-600 mb-4">{service.description}</p>
+                  <div className="text-fitbeats-primary font-semibold">{service.benefit}</div>
+                </div>
               </div>
             );
           })}
